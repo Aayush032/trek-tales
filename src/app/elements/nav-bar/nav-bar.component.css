@@ -1,0 +1,80 @@
+/* Nav links */
+nav {
+  background-color: var(--background-color);
+  padding-block: 16px;
+}
+
+nav .container {
+  justify-content: space-between;
+}
+.company-logo {
+  width: 200px;
+}
+.nav-links {
+  flex-basis: 600px;
+}
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+.link {
+  transition: all 0.3s ease-in-out;
+}
+.link:hover {
+  color: var(--highlight-color-green);
+  cursor: pointer;
+}
+
+/* Search bar */
+.search-bar {
+  width: 300px;
+  height: 50px;
+  border: 0.1px solid rgb(173, 173, 173);
+  border-radius: 15px;
+  align-items: center;
+  background: transparent;
+}
+.search-bar i{
+  color: rgb(173, 173, 173);
+}
+.search-bar input {
+  width: 80%;
+  height: 90%;
+  border: none;
+  padding: 5px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+/* Button group */
+.button-group{
+  gap: 20px;
+}
+.share-btn{
+  gap: 12px;
+}
+.primary-btn{
+    border-radius: 12px;
+    background-color: var(--highlight-color-green);
+    padding: 12px 24px;
+    color: white !important;
+    font-weight: 500;
+
+}
+.primary-btn:hover{
+  cursor: pointer;
+    background-color: var(--highlight-color-green-dark);
+}
+.secondary-btn{
+    border: 0.5px solid var(--highlight-color-green);
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 500;
+    color: var(--highlight-color-green-dark) !important;
+}
+.secondary-btn:hover{
+  cursor: pointer;
+    border: 1px solid var(--highlight-color-green-dark);
+}

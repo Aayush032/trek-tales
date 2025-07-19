@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #e7ecef;
+  --heading-text-color: #e7ecef;
+  --primary-text-color: #003049;
+  --padding-inline-section: 20px;
+  --highlight-color-green: #059669;
+  --highlight-color-green-dark: #047857;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+/* Utility class */
+.small-bold-text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.small-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.container {
+  max-width: 1550px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  font-size: 20px;
+  padding: 0px 15px 0px 15px;
+}
