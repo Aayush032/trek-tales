@@ -2,6 +2,8 @@
 nav {
   background-color: var(--background-color);
   padding-block: 16px;
+  position: sticky;
+  top: 0px;
 }
 
 nav .container {
@@ -54,27 +56,4 @@ nav .container {
 }
 .share-btn{
   gap: 12px;
-}
-.primary-btn{
-    border-radius: 12px;
-    background-color: var(--highlight-color-green);
-    padding: 12px 24px;
-    color: white !important;
-    font-weight: 500;
-
-}
-.primary-btn:hover{
-  cursor: pointer;
-    background-color: var(--highlight-color-green-dark);
-}
-.secondary-btn{
-    border: 0.5px solid var(--highlight-color-green);
-    padding: 12px 24px;
-    border-radius: 12px;
-    font-weight: 500;
-    color: var(--highlight-color-green-dark) !important;
-}
-.secondary-btn:hover{
-  cursor: pointer;
-    border: 1px solid var(--highlight-color-green-dark);
 }
